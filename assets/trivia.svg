@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#18181d"/>
+  <rect x="80" y="80" width="240" height="120" rx="10" fill="none" stroke="#e85d3a" stroke-width="1.5"/>
+  <circle cx="200" cy="140" r="30" fill="none" stroke="#a0a0aa" stroke-width="1.5"/>
+  <text x="200" y="148" text-anchor="middle" fill="#e85d3a" font-family="serif" font-size="24" font-weight="bold">?</text>
+  <line x1="170" y1="90" x2="170" y2="75" stroke="#e85d3a" stroke-width="1.5"/>
+  <line x1="230" y1="90" x2="230" y2="75" stroke="#e85d3a" stroke-width="1.5"/>
+  <circle cx="170" cy="72" r="5" fill="none" stroke="#e85d3a" stroke-width="1.5"/>
+  <circle cx="230" cy="72" r="5" fill="none" stroke="#e85d3a" stroke-width="1.5"/>
+  <rect x="110" y="100" width="20" height="6" rx="2" fill="#e85d3a" opacity="0.4"/>
+  <rect x="110" y="112" width="14" height="6" rx="2" fill="#a0a0aa" opacity="0.4"/>
+  <rect x="110" y="124" width="18" height="6" rx="2" fill="#e85d3a" opacity="0.4"/>
+  <rect x="110" y="136" width="12" height="6" rx="2" fill="#a0a0aa" opacity="0.4"/>
+  <rect x="110" y="148" width="16" height="6" rx="2" fill="#e85d3a" opacity="0.4"/>
+  <rect x="110" y="160" width="20" height="6" rx="2" fill="#a0a0aa" opacity="0.4"/>
+  <rect x="270" y="100" width="20" height="6" rx="2" fill="#e85d3a" opacity="0.4"/>
+  <rect x="270" y="112" width="14" height="6" rx="2" fill="#a0a0aa" opacity="0.4"/>
+  <rect x="270" y="124" width="18" height="6" rx="2" fill="#e85d3a" opacity="0.4"/>
+  <!-- stars -->
+  <polygon points="320,60 323,68 332,68 325,73 328,82 320,76 312,82 315,73 308,68 317,68" fill="#e85d3a" opacity="0.6"/>
+  <polygon points="80,55 82,60 88,60 83,64 85,69 80,66 75,69 77,64 72,60 78,60" fill="#a0a0aa" opacity="0.4"/>
+</svg>
