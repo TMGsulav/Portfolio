@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sulav Tamang · Developer from Nepal</title>
+  <meta name="description" content="Portfolio of Sulav Tamang — a developer from Nepal building web apps, scrapers, games and creative tech projects." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-logo">
+          <img src="assets/logo.jpg" alt="Sulav" class="brand-img" />
+        </span>
+        <span class="brand-text"><span class="brand-mark">S</span>ulav</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home" data-target="home" class="active">Home</a></li>
+        <li><a href="#about" data-target="about">About</a></li>
+        <li><a href="#work" data-target="work">Work</a></li>
+        <li><a href="#projects" data-target="projects">Projects</a></li>
+        <li><a href="#contact" data-target="contact">Contact</a></li>
+      </ul>
+      <button id="menuBtn" class="menu-btn" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <span class="hero-label">Building things from Nepal</span>
+          <h1 class="hero-title">
+            <span class="hero-greeting">Hi, I'm</span>
+            <span class="hero-name">Sulav Tamang</span>
+          </h1>
+          <p class="hero-desc">
+            A developer who builds web applications, scraping pipelines, and interactive experiences. I turn ideas into working software — one messy commit at a time.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">View Work</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch <span class="arrow">→</span></a>
+          </div>
+          <div class="hero-footer">
+            <div class="hero-socials">
+              <a href="https://github.com/TMGsulav" target="_blank" rel="noopener">GitHub</a>
+              <span class="hero-sep">/</span>
+              <a href="mailto:onlysulavtmg54@gmail.com">Email</a>
+              <span class="hero-sep">/</span>
+              <a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a>
+            </div>
+            <div class="hero-loc">Kathmandu, NP</div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-note">
+            <div class="hero-note-content">
+              <span class="hero-note-emoji">👋</span>
+              <span class="hero-note-text">Available for projects</span>
+            </div>
+            <div class="hero-note-foot">— 2026</div>
+          </div>
+          <div class="hero-code">
+            <div class="hero-code-line"><span class="hl-k">const</span> <span class="hl-v">dev</span> = {</div>
+            <div class="hero-code-line indent"><span class="hl-k">name</span>: <span class="hl-s">"Sulav"</span>,</div>
+            <div class="hero-code-line indent"><span class="hl-k">stack</span>: [<span class="hl-s">"html"</span>, <span class="hl-s">"css"</span>, <span class="hl-s">"js"</span>, <span class="hl-s">"python"</span>],</div>
+            <div class="hero-code-line indent"><span class="hl-k">status</span>: <span class="hl-s">"building"</span></div>
+            <div class="hero-code-line">}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-bg-line"></div>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">About</span>
+        </div>
+        <h2 class="section-title">A developer learning <br/>by <span class="accent">doing</span></h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm Sulav, a recent SEE graduate from Nepal. I got into coding 
+              because I wanted to build things — websites, tools, games. 
+              What started with messing around in HTML turned into a full-blown 
+              obsession with making software work.
+            </p>
+            <p>
+              These days I spend my time building web scrapers, crafting 
+              front-end interfaces, and learning how to write code that doesn't 
+              break (too often). I also make YouTube content about my journey.
+            </p>
+            <p>
+              I don't have a CS degree. What I have is curiosity, persistence, 
+              and a habit of breaking things until I understand how they work.
+            </p>
+            <a href="#contact" class="btn btn-sm">Let's talk <span class="arrow">→</span></a>
+          </div>
+
+          <div class="about-timeline">
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-year">2023</span>
+                <span class="tl-text">Wrote first line of HTML. Built a messy website. Got hooked.</span>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-year">2024</span>
+                <span class="tl-text">Learned Python, built scrapers with Apify. Started YouTube channel.</span>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-year">2025</span>
+                <span class="tl-text">Completed SEE. Shipped 10+ projects. Started learning full-stack dev.</span>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-year">Now</span>
+                <span class="tl-text">Building, learning, shipping. Next stop: world-class full-stack developer.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">What I Do</span>
+        </div>
+        <h2 class="section-title">Things I <span class="accent">build</span></h2>
+
+        <div class="work-grid">
+          <div class="work-card">
+            <div class="work-icon-wrap">
+              <img src="assets/webdev.svg" alt="Web Development" class="work-icon-img" />
+            </div>
+            <h3 class="work-title">Web Development</h3>
+            <p class="work-desc">Semantic HTML, modern CSS, vanilla JavaScript. I build responsive websites that work without frameworks getting in the way.</p>
+            <div class="work-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="work-icon-wrap">
+              <img src="assets/scraping.svg" alt="Web Scraping" class="work-icon-img" />
+            </div>
+            <h3 class="work-title">Web Scraping & Data</h3>
+            <p class="work-desc">Custom extraction pipelines with Apify, Python, and XPath. I turn messy websites into clean, structured datasets.</p>
+            <div class="work-tech">
+              <span>Apify</span>
+              <span>Python</span>
+              <span>XPath</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <div class="work-icon-wrap">
+              <img src="assets/pyscript.svg" alt="Python & Automation" class="work-icon-img" />
+            </div>
+            <h3 class="work-title">Python & Automation</h3>
+            <p class="work-desc">Scripts, CLI tools, mini-games. Using Python to automate the boring stuff and build fun experiments.</p>
+            <div class="work-tech">
+              <span>Python</span>
+              <span>CLI</span>
+              <span>Automation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Projects</span>
+        </div>
+        <h2 class="section-title">Stuff I've <span class="accent">shipped</span></h2>
+        <p class="section-desc">Each project taught me something. Here are some that made it to production.</p>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container tight">
+        <div class="section-header">
+          <span class="section-label">Contact</span>
+        </div>
+        <h2 class="section-title">Want to <span class="accent">collaborate</span>?</h2>
+
+        <div class="contact-body">
+          <p class="contact-desc">
+            I'm always open to new projects, ideas, or just a chat about tech. 
+            No fancy contact forms needed — just send me an email.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:onlysulavtmg54@gmail.com" class="contact-link">
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-value">onlysulavtmg54@gmail.com <span class="arrow">→</span></span>
+            </a>
+            <a href="https://github.com/TMGsulav" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-value">TMGsulav <span class="arrow">→</span></span>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="contact-link">
+              <span class="contact-link-label">YouTube</span>
+              <span class="contact-link-value">Coming soon <span class="arrow">→</span></span>
+            </a>
+          </div>
+
+          <form id="contactForm" class="contact-form" action="https://formsubmit.co/onlysulavtmg54@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Portfolio message" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <div class="form-group">
+              <input id="formName" name="name" type="text" required placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <input id="formEmail" name="email" type="email" required placeholder="Your email" />
+            </div>
+            <div class="form-group">
+              <textarea id="formMessage" name="message" rows="4" required placeholder="Tell me about your project..."></textarea>
+            </div>
+            <button type="submit" id="submitBtn" class="btn submit-btn">
+              <span id="btnText">Send message</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-bg"></div>
+    <div class="footer-inner">
+      <div class="footer-text">
+        &copy; <span id="year"></span> <span class="gradient-text">Sulav Tamang</span> &mdash; Crafted with
+        <svg class="footer-heart" viewBox="0 0 24 24" fill="currentColor"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        in Nepal
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/TMGsulav" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3C5.4.3 0 5.7 0 12.4c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.6.1-3.3 0 0 1-.3 3.3 1.2 1-.3 2-.4 3-.4s2 .1 3 .4c2.3-1.6 3.3-1.2 3.3-1.2.7 1.7.2 3 .1 3.3.8.9 1.3 2 1.3 3.2 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6C20.6 22.2 24 17.7 24 12.4 24 5.7 18.6.3 12 .3z"/></svg>
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg>
+        </a>
+        <a href="mailto:onlysulavtmg54@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
