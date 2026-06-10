@@ -3,6 +3,30 @@
   if (year) year.textContent = new Date().getFullYear();
 }
 
+/* ===== THEME TOGGLE ===== */
+{
+  const toggle = document.getElementById("themeToggle");
+  const moonIcon = toggle?.querySelector(".moon-icon");
+  const sunIcon = toggle?.querySelector(".sun-icon");
+
+  function setTheme(isDark) {
+    document.body.classList.toggle("dark", isDark);
+    if (moonIcon) moonIcon.style.display = isDark ? "none" : "block";
+    if (sunIcon) sunIcon.style.display = isDark ? "block" : "none";
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  }
+
+  // Load saved preference
+  const saved = localStorage.getItem("theme");
+  if (saved === "dark") setTheme(true);
+
+  if (toggle) {
+    toggle.addEventListener("click", () => {
+      setTheme(!document.body.classList.contains("dark"));
+    });
+  }
+}
+
 {
   const navbar = document.getElementById("navbar");
   const navLinks = document.querySelectorAll(".nav-links a");
@@ -102,16 +126,6 @@ if (projectsGrid) {
         <h3 class="project-title">${p.title}</h3>
         <p class="project-desc">${p.desc}</p>
         <div class="project-meta">${p.tags.map((t) => `<span class="project-tag">${t}</span>`).join("")}</div>
-        <div class="project-links">
-          <a href="#" class="project-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Live
-          </a>
-          <a href="#" class="project-link">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3C5.4.3 0 5.7 0 12.4c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2.1c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.6.1-3.3 0 0 1-.3 3.3 1.2 1-.3 2-.4 3-.4s2 .1 3 .4c2.3-1.6 3.3-1.2 3.3-1.2.7 1.7.2 3 .1 3.3.8.9 1.3 2 1.3 3.2 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6C20.6 22.2 24 17.7 24 12.4 24 5.7 18.6.3 12 .3z"/></svg>
-            Code
-          </a>
-        </div>
       </div>
     </article>`
     )

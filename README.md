@@ -1,57 +1,103 @@
 # 🌐 Personal Portfolio Website
 
-A modern and interactive personal portfolio website built using **HTML, CSS, and JavaScript**.  
-This portfolio showcases multiple creative and technical projects with a clean UI, animations, and custom-designed project sections.
+A clean, eye-friendly personal portfolio website built with **HTML, CSS, and JavaScript**. Designed with a warm, calm theme that's easy on the eyes and invites visitors to reach out.
 
 ---
 
 # ✨ Features
 
-- Responsive Design 📱
-- Smooth Animations 🎨
-- Modern UI/UX
-- Interactive Project Cards
-- Custom Project Images
-- Clean Navigation System
-- Fast and Lightweight
+- Warm, eye-friendly color palette — soft ivory background with teal accents
+- Fully responsive design — works great on mobile, tablet, and desktop
+- Smooth scroll animations
+- Project showcase with tags and descriptions
+- Contact form with FormSubmit integration
+- Clean, minimalist layout
+- Smooth navigation with active section tracking
 
 ---
 
 # 🛠️ Technologies Used
 
 - HTML5
-- CSS3
-- JavaScript
-- Font Awesome
-- Responsive Flexbox/Grid Layouts
+- CSS3 (CSS Grid, Flexbox, Custom Properties)
+- JavaScript (Vanilla)
+- Google Fonts (Inter, JetBrains Mono, Playfair Display)
 
 ---
 
 # 📂 Projects Included
 
-## 🕷️ Web Scraping Suite
-A collection of web scraping tools and automation utilities made using Python.
-
-## 🚗 Car Booking Website
-A stylish car booking and rental themed website interface.
-
-## 🎌 Anime Themed Website
-Anime-inspired UI design with dark neon aesthetics and animated sections.
-
-## ⛏️ Minecraft Subpage
-A Minecraft styled webpage inspired by the game's visual design.
-
-## 🧠 Quiz Game
-Interactive quiz game with multiple-choice questions and scoring logic.
-
-## 🐍 Python Mini Projects
-A collection of beginner-to-intermediate Python projects and utilities.
+| Project | Description |
+|---------|-------------|
+| 🕷️ **ScraperStack** | Web scraping pipeline handling JS-rendered pages, pagination, and rate limits |
+| 🚗 **RideReserve** | Multi-page car booking platform with form validation and localStorage auth |
+| ⛩️ **OtakuVerse** | Anime community landing page with CSS animations and theme switcher |
+| ⛏️ **BlockCraft** | Minecraft-themed landing page with pixel-art style and custom UI components |
+| 🎮 **TriviaArena** | Timed quiz engine with difficulty tiers, scoring streaks, and results dashboard |
+| 🐍 **PyLab** | Collection of Python experiments — CLI tools, API fetch, terminal games |
 
 ---
 
 # 🚀 Getting Started
 
-## Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/TMGsulav/Portfilo.git
+cd Portfilo
+```
+
+### Open Locally
+
+Simply open `index.html` in your browser — no build tools required.
+
+### Live Preview
+
+You can host the site on any static hosting platform:
+- GitHub Pages
+- Netlify
+- Vercel
+- Cloudflare Pages
+
+---
+
+# 📁 Project Structure
+
+```
+├── index.html          # Main HTML file
+├── styles.css          # All styles (warm theme)
+├── script.js           # JavaScript functionality
+├── assets/             # SVG icons and images
+│   ├── logo.jpg
+│   ├── webdev.svg
+│   ├── scraping.svg
+│   ├── pyscript.svg
+│   ├── scraper.svg
+│   ├── ride.svg
+│   ├── otaku.svg
+│   ├── blockcraft.svg
+│   ├── trivia.svg
+│   └── pylab.svg
+└── README.md           # This file
+```
+
+---
+
+# 🎨 Color Palette
+
+| Role | Color |
+|------|-------|
+| Background | `#f7f4f0` — warm ivory |
+| Surface | `#ffffff` — white |
+| Text | `#2d2a27` — warm near-black |
+| Secondary text | `#7a736c` — warm gray |
+| Accent | `#4a8c8c` — calming teal |
+| Borders | `#e8e2dc` — soft warm line |
+
+---
+
+# 📬 Contact
+
+Built by **Sulav Tamang**.
+- GitHub: [TMGsulav](https://github.com/TMGsulav)
+- Email: onlysulavtmg54@gmail.com

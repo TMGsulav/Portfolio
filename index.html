@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
   <nav id="navbar">
     <div class="nav-inner">
       <a href="#home" class="brand">
@@ -73,27 +72,35 @@
         </div>
 
         <div class="hero-visual">
-          <div class="hero-note">
-            <div class="hero-note-content">
-              <span class="hero-note-emoji">👋</span>
-              <span class="hero-note-text">Available for projects</span>
-            </div>
-            <div class="hero-note-foot">— 2026</div>
-          </div>
           <div class="hero-code">
             <div class="hero-code-line"><span class="hl-k">const</span> <span class="hl-v">dev</span> = {</div>
-            <div class="hero-code-line indent"><span class="hl-k">name</span>: <span class="hl-s">"Sulav"</span>,</div>
+            <div class="hero-code-line indent"><span class="hl-k">name</span>: <span class="hl-s">"Sulav Tamang"</span>,</div>
+            <div class="hero-code-line indent"><span class="hl-k">from</span>: <span class="hl-s">"Pokhara, Nepal"</span>,</div>
             <div class="hero-code-line indent"><span class="hl-k">stack</span>: [<span class="hl-s">"html"</span>, <span class="hl-s">"css"</span>, <span class="hl-s">"js"</span>, <span class="hl-s">"python"</span>],</div>
+            <div class="hero-code-line indent"><span class="hl-k">tools</span>: [<span class="hl-s">"apify"</span>, <span class="hl-s">"node"</span>, <span class="hl-s">"git"</span>],</div>
+            <div class="hero-code-line indent"><span class="hl-k">projects</span>: <span class="hl-v">10</span>,</div>
             <div class="hero-code-line indent"><span class="hl-k">status</span>: <span class="hl-s">"building"</span></div>
             <div class="hero-code-line">}</div>
           </div>
         </div>
       </div>
 
-      <div class="scroll-hint">
-        <span>scroll</span>
-        <div class="scroll-line"></div>
-      </div>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
     </section>
 
     <section id="about" class="section about">
